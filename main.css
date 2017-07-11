@@ -1,0 +1,82 @@
+body {
+  background-color: lightblue;
+}
+
+p {
+  font-family: "Lucida Console", Monaco, monospace;
+}
+
+h1 {
+  font-family: "Lucida Console", Monaco, monospace;
+  text-align: center;
+}
+
+h2 {
+  font-family: "Lucida Console", Monaco, monospace;
+  text-align: left;
+  font-size: 18px;
+}
+
+.form {
+  position: relative;
+  z-index: 1;
+  background: #FFFFFF;
+  max-width: 600px;
+  margin: 0px auto 20px;
+  padding: 45px;
+  text-align: center;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+.form input {
+  font-family: "Lucida Console", Monaco, monospace;
+  outline: 0;
+  background-color: lightgrey;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+.button {
+    background-color: grey;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 10px 10px 10px 10px;
+}
+
+.loginregistercontent {
+  background-color: white;
+  width: 500px;
+  height: auto;
+  margin: auto auto auto auto;
+  border-style: solid;
+}
+
+.content {
+  background-color: white;
+  width: 900px;
+  height: auto;
+  border-style: solid;
+  margin: 10px auto 10px auto;
+  padding: 10px 10px 10px 10px;
+  position: center;
+}
+
+.hiddencontent {
+  width: 900px;
+  height: auto;
+  margin: 10px auto 10px auto;
+}
+
+.pusheen {
+  margin: -100px 0px -50px 650px;
+}
